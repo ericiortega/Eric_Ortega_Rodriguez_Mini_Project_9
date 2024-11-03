@@ -14,7 +14,7 @@ The main focus of this project is to demonstrate data analysis skills using Pyth
 
 ## Project Contents
 - **Notebook Link**: [Google Colab Notebook](https://colab.research.google.com/drive/1xZBn7ZplXxKaI8pLqXg1TL0k9AY1cuce#scrollTo=a0qCKMtT67o2)
-- **Repository Link**: [Public GitHub Repository](<https://github.com/ericiortega/Eric_Ortega_Rodriguez_Mini_Project_9)
+- **Repository Link**: [Public GitHub Repository](https://github.com/ericiortega/Eric_Ortega_Rodriguez_Mini_Project_9)
 
 ## Data Manipulation Tasks
 The following data manipulation tasks were performed on the cereal dataset:
