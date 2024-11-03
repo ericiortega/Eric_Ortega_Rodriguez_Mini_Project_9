@@ -1,40 +1,63 @@
-# Eric_Ortega_Fall_2024_Data_Eng
+# Eric Ortega Rodriguez
+# Cloud-Hosted Notebook Data Manipulation - Mini Project 9
 
-[![CI](https://github.com/nogibjj/Eric_Ortega_Fall_2024_Data_Eng/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/Eric_Ortega_Fall_2024_Data_Eng/actions/workflows/hello.yml)
+## Project Overview
+This project involves setting up a cloud-hosted Jupyter Notebook (in this case, Google Colab) to perform data manipulation tasks on a sample dataset. The dataset used is a cereal dataset that contains nutritional information about various types of cereals.
 
+The main focus of this project is to demonstrate data analysis skills using Python, including loading the dataset, performing data manipulations, and visualizing the data through a heatmap. The final deliverable is a public repository containing the notebook and relevant documentation.
 
-# Details 
-This repository is used for our first Data Engineering Assignment. It will be used as a template for future assignments of IDS 706. This repo contains the following: 
+## Requirements
+- Set up a cloud-hosted Jupyter Notebook (e.g., Google Colab).
+- Perform data manipulation tasks on the cereal dataset.
+- Use a CI/CD pipeline for automation.
+- Include a README.md for documentation.
 
+## Project Contents
+- **Notebook Link**: [Google Colab Notebook](https://colab.research.google.com/drive/1xZBn7ZplXxKaI8pLqXg1TL0k9AY1cuce#scrollTo=a0qCKMtT67o2)
+- **Repository Link**: [Public GitHub Repository](<https://github.com/ericiortega/Eric_Ortega_Rodriguez_Mini_Project_9)
 
+## Data Manipulation Tasks
+The following data manipulation tasks were performed on the cereal dataset:
 
-## The repository serves as a simple addition function
-Description: This script demonstrates a basic Python program that performs addition using a function called add. The main() function initializes two variables, x and y, and uses the add() function to calculate their sum.
+1. **Loading the Dataset**:
+   - The dataset was loaded from a CSV file hosted on GitHub using the Pandas library.
 
-## How It Works
-The script defines an add(x, y) function that takes two arguments and returns their sum.
-The main() function initializes two integers (x = 1 and y = 2), calls the add() function with these values, and stores the result.
-If the script is run as the main program, the main() function is executed.
+2. **Displaying Initial Data**:
+   - Displayed the first few rows of the dataset to get an overview of its structure and content.
 
+3. **Filter High-Calorie Cereals**:
+   - Filtered cereals that have more than 100 calories to analyze cereals that are higher in energy content.
 
-# Some explanation and breakdown: 
+4. **Average Sugar Content Calculation**:
+   - Calculated the average sugar content across all cereals to understand the general level of sugar in the dataset.
 
-[main.py](main.py)
+5. **Sorting by Protein Content**:
+   - Sorted the cereals based on their protein content in descending order to identify the most protein-rich cereals.
 
-Function: Main entry point of a project containing program. 
+6. **Heatmap Visualization**:
+   - Created a heatmap to visualize the calorie content of different cereals. This helps identify cereals with the highest calorie counts more effectively.
 
-[requirements.txt](requirements.txt)
+## Setup and Configuration
+- The Google Colab environment was used for the notebook, which allows for easy access to necessary Python libraries such as Pandas, Seaborn, and Matplotlib.
+- The dataset was loaded directly from GitHub to ensure reproducibility and accessibility.
 
-Function: This file lists all the Python dependencies required for the project. It specifies the exact versions of packages needed, making it easy to install all dependencies with a single command.
+## CI/CD Pipeline
+A CI/CD pipeline was implemented to automate the validation and deployment of the notebook. This ensures continuous integration, allowing for easy updates and verification of changes.
 
-[hello.yml](.github/workflows/hello.yml)
+## Deliverables
+- **Link to the Cloud-Hosted Notebook**: The notebook is hosted in Google Colab, and a link has been provided above.
+- **Demonstration Document/Video**: A demonstration of the data manipulation tasks performed is included in the repository.
 
-Function: This file is typically used for workflows in CI/CD (Continuous Integration/Continuous Deployment) systems, like GitHub Actions. It defines automated processes, such as running tests, building the project, or deploying it when certain events occur.
+## How to Run the Notebook
+1. Open the link to the Google Colab notebook.
+2. Run each cell sequentially to reproduce the analysis and visualizations.
+3. Make sure that all required libraries (Pandas, Seaborn, Matplotlib) are installed and imported.
 
-[Makefile](Makefile)
+## Grading Criteria
+- **Setup and Configuration (20 points)**: Proper setup and configuration of the cloud-hosted notebook.
+- **Data Manipulation Tasks (20 points)**: Completing all specified data manipulation tasks.
+- **CI/CD Pipeline (10 points)**: Implementing a CI/CD pipeline for automation.
+- **README.md (10 points)**: Clear and informative documentation.
 
-Function: A Makefile is used to automate tasks in software development, especially compiling and building projects. It contains a set of rules defining how to execute commands for tasks like building, testing, or cleaning up files. This helps streamline repetitive commands.
-
-[test.py](test.py)
-
-Function: test.py is a script typically used to contain test cases for a project. It includes functions or classes designed to verify that the code works as expected. 
+## Contact
+For any questions or issues regarding this project, please feel free to reach out via eric.ortegarodriguez@duke.edu. 
