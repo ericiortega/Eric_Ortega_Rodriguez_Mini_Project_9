@@ -5,9 +5,9 @@
 </div>
 
 ## Project Overview
-This project involves setting up a cloud-hosted Jupyter Notebook (in this case, Google Colab) to perform data manipulation tasks on a sample dataset. The dataset used is a cereal dataset that contains nutritional information about various types of cereals.
+This mini project nine involves setting up a cloud-hosted Jupyter Notebook (in our case, we will be using Google Colab) to perform data manipulation tasks on a sample dataset. The dataset used is a cereal dataset that contains nutritional information about different types of cereals.
 
-The main focus of this project is to demonstrate data analysis skills using Python, including loading the dataset, performing data manipulations, and visualizing the data through a heatmap. The final deliverable is a public repository containing the notebook and relevant documentation.
+The main objective is to demonstrate data analysis skills using Python, including loading the dataset, performing data manipulations, and visualizing the data through a heatmap. The final deliverable is a public repository containing the notebook and relevant documentation.
 
 ## Requirements
 - Set up a cloud-hosted Jupyter Notebook (e.g., Google Colab).
@@ -55,12 +55,6 @@ A CI/CD pipeline was implemented to automate the validation and deployment of th
 1. Open the link to the Google Colab notebook.
 2. Run each cell sequentially to reproduce the analysis and visualizations.
 3. Make sure that all required libraries are installed and imported.
-
-## Grading Criteria
-- **Setup and Configuration (20 points)**: Proper setup and configuration of the cloud-hosted notebook.
-- **Data Manipulation Tasks (20 points)**: Completing all specified data manipulation tasks.
-- **CI/CD Pipeline (10 points)**: Implementing a CI/CD pipeline for automation.
-- **README.md (10 points)**: Clear and informative documentation.
 
 ## Contact
 For any questions or issues regarding this project, please feel free to reach out via eric.ortegarodriguez@duke.edu. 
