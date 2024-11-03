@@ -1,3 +1,4 @@
+[![CICD](https://github.com/ericiortega/Eric_Ortega_Rodriguez_Mini_Project_9/actions/workflows/CICD.yml/badge.svg)](https://github.com/ericiortega/Eric_Ortega_Rodriguez_Mini_Project_9/actions/workflows/CICD.yml)
 # Cloud-Hosted Notebook Data Manipulation - Mini Project 9
 # Eric Ortega Rodriguez
 <div align="center">
