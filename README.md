@@ -1,4 +1,8 @@
 # Cloud-Hosted Notebook Data Manipulation - Mini Project 9
+<div align="center">
+  <img src="image.png" alt="alt text">
+</div>
+
 # Eric Ortega Rodriguez
 
 ## Project Overview
