@@ -1,9 +1,8 @@
 # Cloud-Hosted Notebook Data Manipulation - Mini Project 9
+# Eric Ortega Rodriguez
 <div align="center">
   <img src="image.png" alt="alt text">
 </div>
-
-# Eric Ortega Rodriguez
 
 ## Project Overview
 This project involves setting up a cloud-hosted Jupyter Notebook (in this case, Google Colab) to perform data manipulation tasks on a sample dataset. The dataset used is a cereal dataset that contains nutritional information about various types of cereals.
